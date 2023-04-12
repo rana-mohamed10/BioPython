@@ -1,4 +1,4 @@
-
+#here is some of biological functions and run it using getopt function 
 from Bio import pairwise2
 from Bio import SeqIO
 from Bio.pairwise2 import format_alignment
@@ -105,7 +105,7 @@ def filter_nbases():
             filteredseq+=i
 
     print(filteredseq)
-#functio 7
+#function 7
 def seq_alignment(seq1,seq2,out=""):
     align = " "
 
